@@ -10,7 +10,7 @@ body, html {
 }
 
 .bgimg {
-    background-image: url('https://terramagna.com.br/wp-content/uploads/2022/09/Planta-jovem-luz-solar.jpg');
+    background-image: url('https://wp.ebradi.com.br/wp-content/uploads/2022/06/formas-de-trabalho-no-campo-1080x675.jpeg');
     min-height: 100vh;
     background-position: center;
     background-size: cover;
@@ -31,10 +31,16 @@ body, html {
 }
 
 .jumbo {
+    color: #00ac25;
     font-size: 80px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 4s steps(30, end), blink-caret .75s step-end infinite;
+    animation: typing 1.5s steps(30, end), blink-caret .75s step-end infinite;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 @keyframes typing {
@@ -42,10 +48,6 @@ body, html {
     to { width: 100%; }
 }
 
-@keyframes blink-caret {
-    from, to { border-color: transparent; }
-    50% { border-color: orange; }
-}
 
 .content {
     width: 80%;
